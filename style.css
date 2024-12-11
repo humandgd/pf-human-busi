@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+.henny-penny-regular {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-size:1.3rem;
+}
+ul,li{
+    list-style: none;
+    margin: 10px 0 10px 0;
+}
+h1{
+    font-size:5rem;
+    color:#fff;
+}
+h2{
+    font-size:4.5rem;
+    text-align: center;
+    margin:20px 0 0 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    color:#acacac;
+}
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(back.jpg) no-repeat;
+    background-size: cover;
+}
+#works{
+
+}
+#works img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+#works div{
+    margin:70px;
+    text-align: center;
+}
+.works-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about {
+    background-color: #484848;
+    color:#fff;
+}
+.about-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.prof ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
